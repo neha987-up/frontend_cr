@@ -1,0 +1,8 @@
+#loginModal .modal-body,
+#forgetModal .modal-body,
+#verifyOtpModal .modal-body
+#createNewPassword .modal-body
+{
+    padding-right: 5px;
+}
+

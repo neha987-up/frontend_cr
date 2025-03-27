@@ -1,0 +1,609 @@
+/* Start Sidebar Css */
+.mainBox {
+  /* height: 100vh; */
+  width: 100%;
+  max-width: 2100px;
+  margin: 0 auto;
+}
+
+aside.sidebar {
+  height: 100vh;
+  position: fixed !important;
+  width: 290px;
+  border: none !important;
+}
+
+.sideBar_MenuParent {
+  height: calc(100vh - 200px);
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+}
+
+.sidebar .ps-sidebar-container {
+  padding: 20px 0;
+  background: #100e1f !important;
+  display: flex !important;
+  flex-direction: column !important;
+  height: 100vh;
+  padding-bottom: 65px;
+}
+
+.sidebar_Mainlogo {
+  padding-left: 26px;
+  width: 80px;
+}
+
+.menu_Item .ps-menu-button {
+  padding-left: 0 !important;
+  padding-left: 26px !important;
+}
+
+.menu_Item {
+  margin-top: 5px;
+}
+
+.menu_Item:hover::before {
+  content: "";
+  height: 100%;
+  width: 3px;
+  background-color: #3465e5;
+  position: absolute;
+  left: 0;
+}
+
+.sidebar .ps-menu-root {
+  padding: 40px 0 84px;
+}
+
+.sidebar .ps-menu-label {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.menu_Item:hover .ps-menu-button {
+  background-color: #151329 !important;
+}
+
+.menu_Item:hover .ps-menu-label {
+  color: #3465e5 !important;
+  font-weight: 800 !important;
+}
+
+.menu_Item:hover .ps-menu-label .sideBar_Logo {
+  filter: invert(32%) sepia(95%) saturate(2520%) hue-rotate(189deg)
+    brightness(93%) contrast(92%);
+}
+
+.sidebarProfile_Parent {
+  background-image: url("./../images/sidebarBg.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 48px 0 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin: 0 26px;
+}
+
+.sidebarProfile_Container {
+  margin-top: auto;
+}
+
+.sidebarProfileImg {
+  border-radius: 50%;
+  border: 7px solid #100e1f;
+  position: absolute;
+  top: -55px;
+  width: 92px;
+  height: 92px;
+  background-color: #100e1f;
+}
+
+.menu_Item.active {
+  background-color: #ffffff10;
+}
+
+.menu_Item.active .ps-menu-label {
+  color: #3465e5;
+  font-weight: 800;
+}
+
+.menu_Item.active .ps-menu-label .sideBar_Logo {
+  filter: invert(32%) sepia(95%) saturate(2520%) hue-rotate(189deg)
+    brightness(93%) contrast(92%);
+}
+
+.ps-menuitem-root.menu_Item.activeSidebar::before {
+  content: "";
+  height: 100%;
+  width: 3px;
+  background-color: #3465e5;
+  position: absolute;
+  left: 0;
+}
+
+.menu_Item.active::before {
+  content: "";
+  height: 100%;
+  width: 3px;
+  background-color: #3465e5;
+  position: absolute;
+  left: 0;
+}
+
+.sidebar.full {
+  display: block;
+  z-index: 999;
+}
+
+.closeSidebar_Btn {
+  display: none;
+}
+
+.closeSidebar_Btn {
+  color: #fff;
+  margin-right: 15px;
+  padding: 8px 10px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  font-size: 12px;
+}
+
+.myProfileText {
+  padding-left: 26px;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.activeSidebar .ps-menu-label {
+  color: #3465e5 !important;
+  font-weight: 800 !important;
+}
+
+.activeSidebar .ps-menu-button {
+  background: #151329;
+}
+
+.activeSidebar.menu_Item .ps-menu-label .sideBar_Logo {
+  filter: invert(32%) sepia(95%) saturate(2520%) hue-rotate(189deg)
+    brightness(93%) contrast(92%);
+}
+
+/* End Sidebar Css */
+/* Start Header Css */
+.dashNavbar {
+  position: sticky;
+  top: 0;
+  background: #151329;
+  z-index: 999;
+}
+
+.navbar {
+  padding: 31px 0;
+}
+
+.navbar-toggler-icon {
+  background-image: none !important;
+}
+
+.navbar-toggler:focus-visible {
+  border: none !important;
+  outline: none;
+  box-shadow: none;
+}
+
+.header_LeftContainer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar-toggler:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+
+.navbarToggle_Btn {
+  padding: 8px;
+  border: 2px solid #fff;
+  background: transparent;
+  border-radius: 8px;
+  display: none;
+}
+
+.navItem_Txt {
+  color: #fff;
+  padding: 0;
+}
+
+.navbar_ToggleIcon {
+  color: #fff;
+  font-size: 24px;
+}
+
+.header_LogoutBtn {
+  background-color: transparent !important;
+  border: none;
+  border: 1px solid #313557;
+  padding: 12px;
+  border-radius: 50%;
+  margin-left: 19px;
+  width: 50px;
+}
+
+.notification_Count {
+  position: absolute;
+  top: -1px;
+  right: -16px;
+  border-radius: 40px;
+  padding: 5px 10px;
+  background: #fc007f;
+  font-size: 10px;
+  color: #fff;
+}
+
+.header_Head {
+  text-transform: capitalize;
+}
+
+/* End Header Css */
+/* Start Dashboard Css */
+.dashboard {
+  margin-left: 290px;
+  padding: 0 40px;
+  height: 100%;
+  background: #151329;
+  overflow: auto;
+}
+
+.content-wrapper {
+  padding: 30px 0;
+  height: calc(100vh - 113px);
+  overflow: auto;
+}
+
+.content-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.common_Table th {
+  padding: 20px 0;
+  border-bottom: 1.02px solid #8989894d;
+  font-size: 13.32px;
+  font-weight: 500;
+  color: #a2a1b7;
+}
+
+.common_Table td {
+  color: #fff;
+  padding: 20px 0;
+  border-bottom: 1.02px solid #8989894d;
+  font-size: 14.4px;
+  font-weight: 400;
+  color: #dbdbdb;
+}
+
+.common_Table tr:last-child td {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.common_Table tr td:last-child {
+  text-align: end;
+}
+
+.table_Parent {
+  background: linear-gradient(
+    340.44deg,
+    rgba(255, 255, 255, 0.15) -40.09%,
+    rgba(255, 255, 255, 0) 113.2%
+  );
+  backdrop-filter: blur(7.5px);
+  padding: 26px 22px;
+  border-radius: 20px;
+  overflow: auto;
+}
+
+.shopDescription {
+  /* height: 100%;
+  max-height: 100px;
+  overflow: auto; */
+  color: #fff;
+  background: #151329;
+  padding: 10px 20px;
+  border-radius: 13px;
+}
+
+.oneLine {
+  overflow: hidden;
+  width: 100%;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  padding-inline: 11px;
+}
+
+.common_Table {
+  width: 100%;
+}
+
+.dashBoard_Table th:nth-child(3) {
+  min-width: 150px;
+}
+
+.dashBoard_Table th:nth-child(1),
+.dashBoard_Table th:nth-child(2),
+.dashBoard_Table th:nth-child(4),
+.dashBoard_Table th:nth-child(5) {
+  min-width: 120px;
+}
+
+.token_Table th:nth-child(6),
+.token_Table th:nth-child(7) {
+  min-width: 150px;
+}
+
+.shopBigCard {
+  position: relative;
+}
+
+.shopBigCard .fontSize20 {
+  font-size: 20px;
+  font-weight: 900;
+  color: #fff;
+  margin-top: 15px;
+}
+
+.bigCardSub {
+  font-size: 14px;
+  color: #a1a0b6;
+  font-weight: 500;
+}
+
+.bigCardShape {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.shopSmallCard {
+  background: linear-gradient(
+    343.4deg,
+    rgba(255, 255, 255, 0.15) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  padding: 11px;
+  border-radius: 10.33px;
+  cursor: pointer;
+}
+.shopSmallCard:hover {
+  background: linear-gradient(
+    225deg,
+    rgba(255, 255, 255, 0.15) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.smallCardFoot {
+  background: linear-gradient(
+    91.61deg,
+    rgba(147, 144, 183, 0.28) 0%,
+    rgba(143, 140, 174, 0.06) 100%
+  );
+  border-radius: 8.16px;
+  padding: 11px 9px;
+  margin-top: 7px;
+}
+
+.smallCardFoot h1 {
+  overflow: hidden;
+  width: 100%;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.smallCardFoot .bigCardSub {
+  font-size: 10px;
+  color: #a1a0b6; 
+  font-weight: 500;
+}
+
+.smallCardFoot .fontSize20 {
+  font-size: 12px;
+  font-weight: 900;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.vipImg {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin-bottom: 60px;
+}
+
+.shopBigImg {
+  width: 100%;
+  height: calc(100% - 68px);
+  object-fit: cover;
+}
+
+.shopSmallCard img {
+  width: 100%;
+  /* height: 260px; */
+  border-radius: 10px;
+  object-fit: fill;
+}
+
+.vipCardLayout:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.vipCardLayout {
+  position: relative;
+  /* height: 98%; */
+}
+
+.vipCardText {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  left: 50%;
+  width: 100%;
+}
+
+.vipCardText p {
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 12px;
+}
+
+.vipCardText a {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.unsubscribe_button.strike-through-box {
+  position: relative;
+  cursor: not-allowed;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #999;
+}
+
+.blur-container {
+  filter: blur(5px);
+  /* Blurs the entire div and its contents */
+  pointer-events: none;
+  /* Prevents interaction */
+}
+
+/* End DashBoard Css */
+
+/* Remove margin for the last two children */
+
+/* Select the last two .shopSmallCard elements */
+.row .col-md-6:first-child .shopSmallCard{
+  margin-bottom: 15px;
+}
+ 
+.termAndCondition {
+  text-align: left;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: underline;
+}
+.termAndCondition:hover{
+  font-weight: 700;
+}
+.termAndConditionParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  /* padding: 18px 30px 0px 30px; */
+  padding: 0px 30px 30px 30px;
+}
+#referModal.modal-dialog {
+  max-width: 580px;
+}
+
+#referModal .modal-body {
+  padding-right: 10px;
+  padding-top: 20px;
+}
+
+.joinDateTxt{
+  color: #8B98A5;
+}
+.joinDateParent{
+  padding: 20px 0;
+  border-bottom: 1px solid #FFFFFF10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+}
+
+.billingDetailsParent{
+  padding: 20px 0;
+}
+
+.billingDetailsBox{
+  border: 1px solid #2A2656;
+  background: #151329;
+  padding: 16px 20px;
+  border-radius: 14px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cancelMemberShipBtn{
+  border: 1px solid #FFFFFF;
+  background: #100E1F99;
+  backdrop-filter: blur(10px);
+  padding: 15px 30px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #FFFFFF;
+  width: 100%;
+}
+
+.viewEnteryBtn {
+  background: #3465e5;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 50px;
+  color: #fff;
+}
+
+.sliderImageParent{
+  margin: 70px auto 0;
+}
+
+.inventaryCard{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.inventorySection .smallCardFoot{
+  margin-top: auto;
+  width: 100%;
+}
+.inventaryCard .grayLayer{
+ margin-bottom: 15px;
+}
+.inventaryCard .inventoryCardImg{
+  margin-bottom: 15px;
+}
+
+
+/* new css */
+.termAndConditionSection table{
+  width: 100% !important;
+}

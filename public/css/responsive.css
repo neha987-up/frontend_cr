@@ -1,0 +1,818 @@
+@media screen and (max-width: 2500px) {
+  .purchaseCard .fontSize30 {
+    font-size: 23px;
+  }
+
+  .purchaseCard .fontSize12 {
+    font-size: 13px;
+  }
+
+  .purchaseCard {
+    padding: 13px;
+  }
+  .border_color_grident .purchaseCard {
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 1800px) {
+}
+
+@media screen and (max-width: 1590px) {
+  .shopBigImg {
+    height: calc(100% - 86px);
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .shopSmallCard img {
+    /* height: 163px; */
+  }
+
+  /* .shopBigImg {
+    min-height: 380px;
+    max-height: 504px;
+  } */
+
+  /* .shopSmallCard img {
+    height: 200px;
+  } */
+
+  /* .nodataSmallCard {
+    height: unset;
+  } */
+
+  .nodataSmallCard .fontSize20 {
+    font-size: 18px;
+  }
+
+  .banner .fontSize58 {
+    font-size: 43.5px;
+  }
+
+  .banner .fontSize20 {
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  /* .shopSmallCard img {
+    width: 100%;
+    height: 167px;
+    border-radius: 9px;
+  } */
+  .vipCardText p {
+    font-size: 11px;
+  }
+
+  .vipCardText a {
+    font-size: 12px;
+  }
+}
+
+/* @media screen and (max-width: 1280px) {
+.slick_Parent {
+  margin-top: 32px;
+}
+} */
+
+@media screen and (max-width: 1199px) {
+  .banner_LeftChild .fontSize58 {
+    font-size: 44.5px;
+    font-weight: 800;
+  }
+
+  .banner_LeftChild .fontSize20 {
+    font-size: 18px;
+  }
+
+  .closeSidebar_Btn {
+    display: block;
+  }
+
+  aside.sidebar {
+    display: none;
+  }
+
+  .dashboard {
+    margin-left: 0 !important;
+  }
+
+  .navbarToggle_Btn {
+    display: block;
+  }
+
+  .dashNavbar {
+    position: static;
+    top: 0;
+    background: unset;
+    z-index: 0;
+  }
+
+  .purchaseCard .fontSize30 {
+    font-size: 23px;
+  }
+
+  .purchaseCard .fontSize12 {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+}
+
+@media screen and (max-width: 991px) {
+  .slick_Parent {
+    margin-top: 30px;
+  }
+  /* .inventaryCard img {
+    height: 290px !important;
+    min-height: 290px !important;
+  } */
+  .shopSmallCard.shop___ {
+    margin-bottom: 15px;
+  }
+  .shopSmallCard img {
+    /* height: 148px; */
+  }
+
+  /* .shopSmallCard img {
+    min-height: 248px !important;
+  }
+  .shop___ img {
+    min-height: 200px !important;
+  } */
+  #givewayModal .fontSize16 {
+    display: flex;
+  }
+
+  .nodataSmallCard .fontSize14 {
+    font-size: 13px;
+  }
+
+  .collect_GiveAways {
+    margin-bottom: 20px;
+    height: auto;
+    text-align: center;
+  }
+
+  .banner_LeftChild .fontSize58 {
+    font-size: 35.5px;
+    font-weight: 800;
+  }
+
+  .banner_LeftChild .fontSize20 {
+    font-size: 17px;
+  }
+
+  .count_Parent {
+    gap: 0 13px;
+    margin-top: 34px;
+  }
+
+  .why_Collection .fontSize43 {
+    font-size: 30px;
+  }
+
+  .collect_GiveAways .slick_Container {
+    width: 485px;
+  }
+
+  .collect_GiveAways .slick-slide img {
+    width: 100%;
+  }
+
+  .why_Collection .join_Box {
+    text-align: center;
+  }
+
+  .our_Selection .fontSize43,
+  .how_Work .fontSize43,
+  .testimonials .fontSize43,
+  .pricing .fontSize43,
+  .faq .fontSize43,
+  .start_Journey .fontSize43 {
+    font-size: 30px;
+  }
+
+  .howWork_Box:first-child {
+    padding-top: 0;
+    text-align: center;
+  }
+
+  .howWork_Box {
+    padding-bottom: 43px;
+  }
+
+  .how_Work .text-end {
+    text-align: center !important;
+    margin-bottom: 40px;
+  }
+
+  .faq {
+    text-align: center;
+  }
+
+  .testimonials {
+    padding: 80px 50px;
+  }
+
+  .faq .emailLink {
+    margin-bottom: 15px !important;
+    display: inline-block;
+  }
+
+  .journey_Parent {
+    height: 280px;
+  }
+
+  .navbar-section .navbar-nav .nav-item {
+    padding-right: 0px;
+    padding-bottom: 11px;
+  }
+
+  .subscription_BoxFirst {
+    margin-bottom: 20px !important;
+    height: unset;
+  }
+
+  .pricing .subscription_Box .fontSize32,
+  .pricing .subscription_Box .subs_Price {
+    text-align: center;
+  }
+
+  .navbar-section .navbar-collapse {
+    position: absolute;
+    background: rgb(21, 19, 41);
+    top: 88px;
+    z-index: 1;
+    padding: 20px;
+  }
+
+  .navbar-section .navBtn_Parent .nav_Btn,
+  .navbar-section .navBtn_Parent .navLogin_Btn {
+    padding: 10px 17px !important;
+    font-size: 14px;
+  }
+
+  .navbar-section .navBtn_Parent .navLogin_Btn {
+    border: 1px solid #3465e5 !important;
+  }
+
+  .banner_Container {
+    padding: 46px 46px 60px;
+  }
+
+  /* .bannerSection_Img {
+    height: 329px;
+  } */
+
+  .bannerRight_ImgInfo {
+    bottom: -10px;
+  }
+
+  .skeletonTxt {
+    padding-bottom: 1px;
+  }
+
+  .shopBigImg {
+    max-height: 343px;
+  }
+
+  .giveWayMultiImgs {
+    width: 119px !important;
+    object-fit: cover;
+  }
+
+  .giveWayTab .react-tabs__tab.react-tabs__tab--selected {
+    font-size: 12px !important;
+  }
+
+  .purchaseCard {
+    padding: 8px;
+    text-align: center;
+  }
+
+  .freeVipMem {
+    display: block;
+    margin: 18px auto;
+    text-align: center;
+  }
+
+  .border_color_grident .purchaseCard {
+    padding: 11px;
+  }
+
+  .border_color_grident .memberShipActive {
+    padding: 9px;
+  }
+}
+
+#collectionModal.common-modal .modal-content {
+  margin-inline: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .giveWaySmallImgList {
+    margin-bottom: 20px;
+  }
+
+  .purchaseCard {
+    margin-bottom: 12px;
+  }
+
+  #collectionModal .collectionCard {
+    margin-bottom: 15px;
+  }
+
+  .shopSmallCard img {
+    height: 100%;
+    /* max-height: 233px;
+    min-height: 233px; */
+  }
+
+  .inventoryCollectionCardSmall {
+    height: 100%;
+  }
+
+  .invetoryCardImg {
+    height: 100% !important;
+    /* max-height: 233px !important; */
+    /* min-height: 233px !important; */
+    object-fit: cover !important;
+  }
+
+  .givewayContent {
+    padding-block: 44px;
+  }
+
+  .givewayContent .fontSize30 {
+    font-size: 51px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .bannerImg_Parent {
+    height: 450px;
+  }
+  #logoutModal .modal-content {
+    padding: 25px 20px 35px;
+  }
+  .sidebar .ps-menu-root {
+    padding: 40px 0 64px;
+  }
+  .collect_GiveAways {
+    padding: 31px 31px 60px;
+  }
+  #vipMemberModal .modal-content {
+    padding: 25px 15px 35px;
+  }
+  #vipMemberModal.common-modal .modal-body {
+    padding-right: 10px;
+  }
+  #referModal .modal-content {
+    padding: 25px 15px 35px;
+  }
+  #referModal .myRewardLeft .fontSize18 {
+    font-size: 12px;
+  }
+  #referModal .myRewardInner {
+    padding: 16px 15px;
+  }
+  .vipCardText p {
+    font-size: 13px;
+  }
+  .glider {
+    width: 130px;
+  }
+  .tab {
+    width: 130px;
+    font-size: 10px !important;
+  }
+  .collectionInnerCard_Parent {
+    padding: 24px 15px;
+  }
+  .vipCardText a {
+    font-size: 14px;
+  }
+  .planCardHeading {
+    text-align: center;
+  }
+  .dashBoard_Table th:nth-child(1),
+  .dashBoard_Table th:nth-child(2),
+  .dashBoard_Table th:nth-child(4),
+  .dashBoard_Table th:nth-child(5) {
+    min-width: 143px;
+  }
+
+  .collect_GiveAways .slick-prev,
+  .collect_GiveAways .slick-next {
+    top: unset;
+    bottom: -53px;
+  }
+
+  .collect_GiveAways .slick-next {
+    left: 53%;
+  }
+
+  .collect_GiveAways .slick-prev {
+    left: 43%;
+    z-index: 1;
+  }
+
+  .collect_GiveAways .slick_Container {
+    width: 100%;
+    max-width: 500px;
+  }
+
+  /* .bannerSection_Img {
+    height: 363px;
+  } */
+
+  .givewayContent .fontSize30 {
+    font-size: 54px;
+    font-weight: 700;
+  }
+  .termAndCondition {
+    font-size: 14px;
+}
+}
+
+@media screen and (max-width: 480px) {
+  .bannerImg_Parent {
+    height: 350px;
+}
+  .subscription_box {
+    padding: 18px 19px;
+  }
+
+  .unsubscribe_button {
+    font-size: 11px;
+    padding: 13px 15px;
+  }
+
+  .border_color_grident .purchaseCard {
+    margin-bottom: 0px !important;
+  }
+
+  .border_color_grident {
+    margin-bottom: 10px;
+  }
+
+  .how_Work .work_Container {
+    padding: 90px 20px;
+  }
+
+  .paddingleft0 {
+    padding-left: 0;
+  }
+
+  .workDescription img {
+    width: 100%;
+  }
+
+  .testimonials {
+    padding: 45px 20px;
+  }
+
+  .banner {
+    padding: 19px 0 0;
+  }
+
+  .banner_LeftChild .fontSize58 {
+    font-size: 28.5px;
+    font-weight: 600;
+  }
+
+  .banner_LeftChild .fontSize20 {
+    font-size: 16px;
+  }
+
+  .banner_Container {
+    padding: 33px 29px 58px;
+  }
+
+  .bannerImg_Parent {
+    margin-top: 15px;
+  }
+
+  .skeletonTxt {
+    padding-bottom: 0px;
+  }
+
+  .why_Collection {
+    padding: 70px 0;
+  }
+
+  .why_Collection .fontSize43 {
+    font-size: 28px;
+    font-weight: 600;
+  }
+
+  .section_Heading {
+    font-weight: 500;
+    font-size: 16px;
+  }
+
+  .slickBox {
+    width: auto !important;
+  }
+
+  .our_Selection .fontSize43,
+  .how_Work .fontSize43,
+  .testimonials .fontSize43,
+  .pricing .fontSize43,
+  .faq .fontSize43,
+  .start_Journey .fontSize43 {
+    font-size: 25px;
+  }
+
+  .why_Collection .fontSize43 {
+    font-size: 25px;
+    font-weight: 600;
+  }
+
+  .mtCustom {
+    margin-top: 1rem !important;
+  }
+
+  .how_Work .work_Container {
+    padding: 60px 20px;
+  }
+
+  .how_Work .work_Container {
+    margin-top: 50px;
+  }
+
+  .workDescription_Parent {
+    margin-top: 60px;
+  }
+
+  .workDescription_Parent .fontSize36 {
+    font-size: 28px;
+    font-weight: 700;
+  }
+
+  .workDescription .fontSize18 {
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .testimonials .fontSize32 {
+    font-size: 28px;
+    font-weight: 700;
+  }
+
+  .faq {
+    padding-block: 50px;
+  }
+
+  .start_Journey {
+    margin-bottom: 0px;
+  }
+
+  .footerRow .justify-content-end {
+    justify-content: start !important;
+  }
+
+  .testimonials_Box .fontSize18 {
+    font-size: 16px;
+  }
+
+  .copyRight_Section {
+    padding: 22px 0;
+    border-top: 1px solid #282545;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column-reverse;
+    gap: 10px;
+  }
+
+  .footerIconOuter {
+    min-width: 113px;
+    margin: auto;
+  }
+
+  .footerLogo {
+    /* padding: 0; */
+    /* margin-left: 16px; */
+  }
+
+  .subscription_Box .fontSize32 {
+    font-size: 26px;
+    font-weight: 600;
+  }
+
+  .subscription_Box .subs_Btn {
+    padding: 16px;
+  }
+
+  .journey_Parent {
+    height: auto;
+    text-align: center;
+  }
+
+  .start_Journey .fontSize18 {
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .count_Parent {
+    gap: 0 16px;
+  }
+
+  .count_Parent .fontSize28 {
+    font-size: 21px;
+  }
+
+  .count_Parent .fontSize14 {
+    font-size: 11px;
+  }
+
+  .common_Input {
+    padding: 13px 25px;
+  }
+
+  .modal_Head {
+    padding-top: 16px;
+    font-size: 21px !important;
+  }
+
+  .formInput_Parent {
+    padding-top: 14px;
+  }
+
+  .modal_Footer {
+    padding-top: 18px;
+  }
+
+  .common-modal .modal-body {
+    padding-top: 21px;
+  }
+
+  .otpInput_Parent div input {
+    margin-right: 6px;
+  }
+
+  .otpInput_Parent div input:last-child {
+    margin-right: 0;
+  }
+
+  .collect_GiveAways .slick-prev,
+  .collect_GiveAways .slick-next {
+    display: none !important;
+  }
+
+  .collect_GiveAways .slick_Container {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .workDescription {
+    height: unset;
+    overflow-x: hidden;
+  }
+
+  .navbar-section .navBtn_Parent .navLogin_Btn {
+    width: 79.56px;
+  }
+
+  .dashboard {
+    padding: 0 23px;
+  }
+
+  .vipImgSmall {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-bottom: 30px;
+    display: block;
+  }
+
+  .vipImg {
+    display: none;
+  }
+
+  .bigCardSub {
+    margin-bottom: 10px !important;
+  }
+
+  .givewayContent .fontSize30 {
+    font-size: 40px;
+    font-weight: 800;
+  }
+
+  .givewayContainer .fontSize16 {
+    font-size: 16px;
+    max-height: unset;
+    overflow: auto;
+  }
+
+  .shopBigImg {
+    /* max-height: 400px; */
+  }
+
+  .giveWayMultiImgs {
+    width: 63px !important;
+    margin-right: 0px;
+    height: 70px;
+    margin-bottom: 17px;
+  }
+
+  #givewayModal .modal-content {
+    padding: 50px 10px 35px;
+  }
+
+  .giveWayTab .react-tabs__tab.react-tabs__tab--selected {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .giveWayTab .react-tabs__tab-list {
+    border: none !important;
+    margin: 10px auto;
+  }
+
+  .giveWayTab .react-tabs__tab {
+    text-align: center;
+    display: block;
+  }
+
+  .purchaseCard {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .freeVipMem {
+    margin: 10px auto;
+    display: block;
+  }
+
+  .collectionCardList {
+    /* text-align: center; */
+  }
+
+  .giveWaySmallImgList {
+    text-align: center;
+  }
+
+  /* .glider {
+    width: 108px;
+  }
+
+  .tab {
+    width: 108px;
+    font-size: 10px !important;
+  } */
+
+  .purchaseCard .fontSize30 {
+    font-size: 24px;
+  }
+
+  #loginModal .formInput_Parent .form-control {
+    height: 52px;
+  }
+
+  #loginModal .country-list {
+    width: fit-content;
+  }
+  #purchaseSubsModal.common-modal .modal-content {
+    padding: 25px 20px 35px;
+  }
+}
+
+@media (max-width: 391px) {
+  .signup_btn {
+    padding: 11px 22px;
+  }
+
+  .navLogin_Btn {
+    padding: 12px 26px !important;
+  }
+
+  .signup_btn {
+    padding: 11px 20px;
+  }
+
+  .header_LogoutBtn {
+    margin-left: 14px;
+  }
+
+  .givewayContent .fontSize30 {
+    font-size: 40px;
+    font-weight: 800;
+  }
+
+  .header_LogoutBtn {
+    width: 48px;
+  }
+
+  .givewayContent {
+    padding-block: 31px;
+  }
+
+  .givewayContent {
+    padding-left: 26px;
+  }
+}
